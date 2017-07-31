@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* SIDEBAR */
+
+#sidebar {
+	background-repeat: repeat-y;
+	position: relative;
+}
+
+#sidebar #sidebar-top {
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 9px;
+	height: 60px;
+}
+
+#sidebar #sidebar-bottom {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 9px;
+	height: 60px;
+}
+
+#sidebar-left {
+	background-position: right 0;
+	background-repeat: repeat-y;
+	position: relative;
+}
+
+#sidebar-left #sidebar-top {
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 9px;
+	height: 60px;
+}
+
+#sidebar-left #sidebar-bottom {
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 9px;
+	height: 60px;
+}
+
+#sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li a {
+	display: block;
+	padding: 7px 5px;
+}
+
+/* SIDEBAR1 */
+
+
+
+
+
+
+
+
+
+#sidebar ul {
+	border-top: 1px solid #e3e3e3;
+}
+
+#sidebar li {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+#sidebar li a:hover {
+	background-color: #fafafa;
+}

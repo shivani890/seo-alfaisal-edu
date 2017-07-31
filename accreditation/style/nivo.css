@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* NIVO SLIDESHOW */
+
+.nivo-slideshow {
+	margin: 0 0 20px 0;
+}
+
+#homepage .nivo-slideshow .slideshow,
+#full-width-content .nivo-slideshow .slideshow,
+#content .nivo-slideshow .slideshow {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	overflow: visible;
+	position: relative;
+}
+
+#homepage .nivo-slideshow .slideshow {
+    width: 940px;
+    height: 350px;
+}
+
+#full-width-content .nivo-slideshow .slideshow {
+    width: 920px;
+    height: 350px;
+}
+
+#content .nivo-slideshow .slideshow {
+    width: 560px;
+    height: 250px;
+}
+
+#homepage .nivo-slideshow .slideshow img,
+#full-width-content .nivo-slideshow .slideshow img,
+#content .nivo-slideshow .slideshow img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+#homepage .nivo-slideshow .slideshow a,
+#full-width-content .nivo-slideshow .slideshow a,
+#content .nivo-slideshow .slideshow a {
+	border: 0;
+	display: block;
+}
+
+.nivo-controlNav {
+	position: absolute;
+	right: 20px;
+	bottom: -28px;
+}
+
+.nivo-controlNav a {
+	background-repeat: no-repeat;
+	border: 0;
+	display: block;
+	float: left;
+	margin: 1px;
+	width: 12px;
+	height: 12px;
+	text-indent: -9999px;
+}
+
+.nivo-controlNav a.active,
+.nivo-controlNav a:hover {
+	background-position: -12px 0;
+}
+
+.nivo-directionNav {
+	position: absolute;
+	bottom: -30px;;
+	left: 10px;
+}
+
+.nivo-directionNav a {
+	background-repeat: no-repeat;
+	border: 0;
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin-right: 2px;
+	width: 22px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+a.nivo-nextNav {
+	background-position: -22px 0;
+	right: 15px;
+}
+
+a.nivo-nextNav:hover {
+	background-position: -22px -22px;
+	right: 15px;
+}
+
+a.nivo-prevNav {
+	left: 15px;
+}
+
+a.nivo-prevNav:hover {
+	background-position: 0 -22px;
+}
+
+/* ACCORDION SLIDESHOW */
+
+.accordion-slideshow {
+	margin: 0 0 20px 0;
+}
+
+#homepage .accordion {
+	display: block;
+	width: 940px;
+	height: 350px;
+}
+
+#full-width-content .accordion {
+	width: 920px;
+	height: 350px;
+}
+
+#content .accordion {
+	width: 560px;
+	height: 250px;
+}
+
+.accordion {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.accordion li {
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+}
+
+#homepage .accordion li {
+	/* calculated for FOUR slides - ( 940-(4*3) ) / 4 = 232 */
+	width: 232px;
+	height: 350px;
+}
+
+#full-width-content .accordion li {
+	/* calculated for FOUR slides - ( 920-(4*3) ) / 4 = 227 */
+	width: 227px;
+	height: 350px;
+}
+
+#content .accordion li {
+	/* calculated for FOUR slides - ( 560-(4*3) ) / 4 = 137 */
+	width: 137px;
+	height: 250px;
+}
+
+.accordion.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 5px; /*Set to same as spacing option. */	
+	float: left;
+}
+
+#homepage .accordion-slideshow .slideshow-bottom {
+	background-position: 0 bottom;
+	height: 10px;
+}

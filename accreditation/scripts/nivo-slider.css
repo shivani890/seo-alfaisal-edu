@@ -1,0 +1,67 @@
+/*
+ * jQuery Nivo Slider v2.3
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2010, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	text-indent:-999999px;
+	margin:25px 0 0 0;
+	widows:947px;
+	height:355px;
+	margin-left: 0px;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:99;
+	cursor:pointer;
+	text-indent:-99999px;
+	
+}
+.nivo-prevNav {
+	background:url(../images/arrows-l.png) no-repeat;
+	left:15px;
+	width:30px;
+	height:30px;
+}
+.nivo-nextNav {
+	background:url(../images/arrows-r.png) no-repeat;
+	right:15px;
+	width:30px;
+	height:30px;
+}
